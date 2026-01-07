@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { OtpDto } from "../dto/otp.dto"
-import { connectDB } from "src/mongodb";
+import { connectDB } from "src/mongodb.ts";
 import { ConfigService } from "@nestjs/config";
 import OTP from "../model/otp";
 

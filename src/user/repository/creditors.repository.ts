@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-import { connectDB } from "src/mongodb";
+import { connectDB } from "src/mongodb.ts";
 import User from "src/auth/model/user";
 import { CreditorsDto } from "../dtos/creditors-management.dto";
 import CreditorsManagement from "../model/creditors-management";
