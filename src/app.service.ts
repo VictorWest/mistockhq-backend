@@ -3,11 +3,7 @@ import { ConfigService } from '@nestjs/config';
 
 @Injectable()
 export class AppService {
-  constructor(private configService: ConfigService) {}
-
   getHello(): string {
-    const dbPassword = this.configService.get('DB_PASSWORD')
-
-    return `Hello World! ${dbPassword}`;
+    return `Hello World!`;
   }
 }
