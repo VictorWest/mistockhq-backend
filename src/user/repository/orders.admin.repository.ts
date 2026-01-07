@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-import { connectDB } from "src/mongodb.ts";
+import { connectDB } from 'src/mongodb';
 import OrdersManagement from "../model/orders-management";
 import { isSuperAdmin } from "../utils/role.util";
 

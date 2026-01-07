@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-import { connectDB } from "src/mongodb.ts";
+import { connectDB } from 'src/mongodb';
 import Worker from "../model/worker";
 import User from "src/auth/model/user";
 

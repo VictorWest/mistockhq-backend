@@ -3,7 +3,7 @@ import { CategoryDto, CurrencyDto, InventoryItemDto, ThresholdSettingDto, UnitOf
 import InventoryManagement from '../model/inventory-management';
 import User from 'src/auth/model/user';
 import { ConfigService } from "@nestjs/config";
-import { connectDB } from "src/mongodb.ts";
+import { connectDB } from 'src/mongodb';
 
 @Injectable()
 export class InventoryRepository {

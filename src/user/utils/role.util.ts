@@ -1,4 +1,4 @@
-import { connectDB } from "src/mongodb.ts";
+import { connectDB } from 'src/mongodb';
 import User from "src/auth/model/user";
 import { ConfigService } from "@nestjs/config";
 
