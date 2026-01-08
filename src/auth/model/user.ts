@@ -1,5 +1,5 @@
 import mongoose from "mongoose"
-import { industryNameOptions, userDesignationOptions } from "src/interface/industry"
+import { industryNameOptions, userDesignationOptions } from "../../interface/industry"
 
 const userSchema = new mongoose.Schema({
     fullName: {

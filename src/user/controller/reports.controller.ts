@@ -1,7 +1,7 @@
 import { Controller, Get, Param, Query, HttpException, HttpStatus } from "@nestjs/common";
 import { VendorRepository } from "../repository/vendor.repository";
-import { ResponseDto } from "src/dtos/response.dto";
-import { ErrorDto } from "src/dtos/error.dto";
+import { ResponseDto } from "../../dtos/response.dto";
+import { ErrorDto } from "../../dtos/error.dto";
 
 @Controller('reports')
 export class ReportsController {

@@ -7,7 +7,7 @@
 const mongoose = require('mongoose')
 const VendorItemsManagement = require('../dist/src/user/model/vendor-items-management').default
 const VendorItems = require('../dist/src/user/model/vendor-items').default
-const connectDB = require('../dist/src/mongodb.ts.ts').connectDB
+const connectDB = require('../dist/src/mongodb').connectDB
 
 async function migrate(){
     const dbPass = process.env.DB_PASSWORD || ''

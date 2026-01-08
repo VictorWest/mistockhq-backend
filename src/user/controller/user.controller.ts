@@ -1,8 +1,8 @@
 import { Body, Controller, HttpException, HttpStatus, Param, Post, Query, Get, Delete, Patch } from '@nestjs/common';
 import { UserService } from '../service/user.service';
 import { InventoryItemDto, ThresholdSettingDto, UnitOfMeasurementDto, WriteOffRequestDto, CategoryDto, CurrencyDto } from '../dtos/inventory-mangement.dto';
-import { ResponseDto } from 'src/dtos/response.dto';
-import { ErrorDto } from 'src/dtos/error.dto';
+import { ResponseDto } from '../../dtos/response.dto';
+import { ErrorDto } from '../../dtos/error.dto';
 import { DepartmentDto } from '../dtos/department-management.dto';
 import { SupplierDto } from '../dtos/supplier-management.dto';
 import { ReceivablesDto, ReceivablePaymentDto } from '../dtos/receivables-management.dto';
@@ -12,7 +12,7 @@ import { ProcurementDto } from '../dtos/procurement-management.dto';
 import { UserManagementDto } from '../dtos/user-management.dto';
 import { PaymentDto } from '../dtos/payment.dto';
 import { CustomerDto } from '../dtos/customer.dto';
-import type { IndustryName } from 'src/interface/industry';
+import type { IndustryName } from '../../interface/industry';
 
 @Controller('user')
 export class UserController {

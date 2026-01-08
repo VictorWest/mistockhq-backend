@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Param, Post, Patch, Delete, Query, HttpException, HttpStatus } from "@nestjs/common";
 import { VendorGlobalRepository } from "../repository/vendor.global.repository";
-import { ResponseDto } from "src/dtos/response.dto";
-import { ErrorDto } from "src/dtos/error.dto";
+import { ResponseDto } from "../../dtos/response.dto";
+import { ErrorDto } from "../../dtos/error.dto";
 
 @Controller('vendors')
 export class VendorController {

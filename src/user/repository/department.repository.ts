@@ -1,8 +1,8 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
 import { DepartmentDto } from "../dtos/department-management.dto";
-import { connectDB } from 'src/mongodb';
-import User from "src/auth/model/user";
+import { connectDB } from '../../mongodb';
+import User from "../../auth/model/user";
 import DepartmentManagement from "../model/department-management";
 
 @Injectable()

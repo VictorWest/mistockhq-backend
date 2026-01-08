@@ -17,7 +17,7 @@ import { PaymentRepository } from '../repository/payment.repository';
 import { PaymentDto } from '../dtos/payment.dto';
 import { CustomerRepository } from '../repository/customer.repository';
 import { CustomerDto } from '../dtos/customer.dto';
-import { IndustryName } from 'src/interface/industry';
+import { IndustryName } from '../../interface/industry';
 import { VendorRepository } from '../repository/vendor.repository';
 import { OrdersRepository } from '../repository/orders.repository';
 

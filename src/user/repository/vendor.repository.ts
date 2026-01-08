@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-import { connectDB } from 'src/mongodb';
-import User from "src/auth/model/user";
+import { connectDB } from '../../mongodb';
+import User from "../../auth/model/user";
 import VendorItemsManagement from "../model/vendor-items-management";
 import { VendorItemDto } from "../dtos/vendor-item.dto";
 

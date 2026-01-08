@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Param, Post, Patch, Delete, HttpException, HttpStatus } from "@nestjs/common";
 import { WorkerRepository } from "../repository/worker.repository";
-import { ResponseDto } from "src/dtos/response.dto";
-import { ErrorDto } from "src/dtos/error.dto";
+import { ResponseDto } from "../../dtos/response.dto";
+import { ErrorDto } from "../../dtos/error.dto";
 
 @Controller('workers')
 export class WorkerController {

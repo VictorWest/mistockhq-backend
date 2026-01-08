@@ -1,5 +1,5 @@
 import { IsArray, IsIn, IsString } from "class-validator";
-import { userDesignationOptions } from "src/interface/industry";
+import { userDesignationOptions } from "../../interface/industry";
 
 export class UserManagementDto {
     @IsString()

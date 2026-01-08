@@ -1,8 +1,8 @@
 import { Controller, Get, Post, Param, Body, HttpException, HttpStatus } from "@nestjs/common";
 import { OrdersRepository } from "../repository/orders.repository";
 import { OrdersAdminRepository } from "../repository/orders.admin.repository";
-import { ResponseDto } from "src/dtos/response.dto";
-import { ErrorDto } from "src/dtos/error.dto";
+import { ResponseDto } from "../../dtos/response.dto";
+import { ErrorDto } from "../../dtos/error.dto";
 import { OrderConnectionDto, ChargePartiesDto } from "../dtos/order.dto";
 
 @Controller('orders')

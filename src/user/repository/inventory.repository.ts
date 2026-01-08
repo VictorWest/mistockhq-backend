@@ -1,9 +1,9 @@
 import { Injectable } from "@nestjs/common";
 import { CategoryDto, CurrencyDto, InventoryItemDto, ThresholdSettingDto, UnitOfMeasurementDto, WriteOffRequestDto } from '../dtos/inventory-mangement.dto';
 import InventoryManagement from '../model/inventory-management';
-import User from 'src/auth/model/user';
+import User from '../../auth/model/user';
 import { ConfigService } from "@nestjs/config";
-import { connectDB } from 'src/mongodb';
+import { connectDB } from '../../mongodb';
 
 @Injectable()
 export class InventoryRepository {

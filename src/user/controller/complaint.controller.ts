@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Param, Post, Patch, HttpException, HttpStatus } from "@nestjs/common";
 import { ComplaintRepository } from "../repository/complaint.repository";
-import { ResponseDto } from "src/dtos/response.dto";
-import { ErrorDto } from "src/dtos/error.dto";
+import { ResponseDto } from "../../dtos/response.dto";
+import { ErrorDto } from "../../dtos/error.dto";
 
 @Controller('complaints')
 export class ComplaintController {

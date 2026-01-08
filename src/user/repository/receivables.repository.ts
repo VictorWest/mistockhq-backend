@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-import { connectDB } from 'src/mongodb';
-import User from "src/auth/model/user";
+import { connectDB } from '../../mongodb';
+import User from "../../auth/model/user";
 import { ReceivablesDto } from "../dtos/receivables-management.dto";
 import { ReceivablePaymentDto } from "../dtos/receivables-management.dto";
 import ReceivablesManagement from "../model/receivables-management";

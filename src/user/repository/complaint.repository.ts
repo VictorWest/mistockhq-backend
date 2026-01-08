@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
-import { connectDB } from 'src/mongodb';
+import { connectDB } from '../../mongodb';
 import Complaint from "../model/complaint";
 import { isSuperAdmin } from "../utils/role.util";
 

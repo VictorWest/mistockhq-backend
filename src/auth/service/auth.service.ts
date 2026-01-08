@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { UserAccountDto } from '../dto/create-user.dto';
 import bcrypt from "bcrypt"
-import { connectDB } from 'src/mongodb';
+import { connectDB } from '../../mongodb';
 import User from '../model/user';
 import { LoginDto } from '../dto/login.dto';
 import { sendEmail } from '../utils/resend';
