@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_KEY!)
 export const sendEmail = async (userEmail: string, subject: string, body: string) => {
     try {
         const { data, error } = await resend.emails.send({
-            from: 'Mi-Inventory <onboarding@resend.dev>',
+            from: 'Mi-Stock HQ <help@mistockhq.com>',
             to: [userEmail],
             subject,
             html: body
