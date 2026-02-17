@@ -18,6 +18,6 @@ export const SEND_OTP_EMAIL_CONTENT = (otp: string) => `
 
     <p>This code is valid for the next 10 minutes. If you didn’t request this, you can safely ignore this email.</p>
 
-    <p style="margin-top: 30px;">Regards,<br/>Mi-Inventory Team</p>
+    <p style="margin-top: 30px;">Regards,<br/>Mi-Stock HQ Team</p>
   </div>
 `;

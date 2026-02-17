@@ -1,8 +1,8 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
-const FRONTEND_URL = 'https://mistockhq-frontend.vercel.app' 
-// || 'http://localhost:8080'
+// const FRONTEND_URL = 'https://mistockhq-frontend.vercel.app' 
+const FRONTEND_URL = 'http://localhost:8080'
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
